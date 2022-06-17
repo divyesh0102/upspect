@@ -1,0 +1,45 @@
+{
+  "name": "@upsect/recoil",
+  "version": "1.1.0",
+  "description": "React hook for just-in-time component rendering, with first-class support for Tailwind CSS.",
+  "license": "BSD-3-Clause",
+  "author": "Nathan Allen <nallen@upsect.com>",
+  "repository": "github:upsect/recoil",
+  "bugs": "https://github.com/upsect/recoil/issues",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "media-queries",
+    "breakpoints",
+    "tailwind-css",
+    "just-in-time",
+    "viewport-dimensions",
+    "pinpoint-accuracy"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "bump": "npm version",
+    "prepublishOnly": "yarn build",
+    "watch": "nodemon --watch src --exec \"yarn build\"",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/react-hooks": "^7.0.2",
+    "jest": "^27.5.1",
+    "mq-polyfill": "^1.1.8",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
