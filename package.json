@@ -1,0 +1,19 @@
+{
+  "name": "upspect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chintanshahts/upspect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chintanshahts/upspect/issues"
+  },
+  "homepage": "https://github.com/chintanshahts/upspect#readme"
+}
